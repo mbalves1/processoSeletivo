@@ -20,21 +20,21 @@ button.addEventListener('click', (event) => {
 
     let divName = document.createElement('div')
 
-    let labelName = document.createElement('label')
+    let labelName = document.createElement('div')
     labelName.classList.add('bold')
-    let nameInclude = document.createElement('p')
+    let nameInclude = document.createElement('span')
 
-    let labelEmail = document.createElement('label')
+    let labelEmail = document.createElement('div')
     labelEmail.classList.add('bold')
-    let emailInclude = document.createElement('p')
+    let emailInclude = document.createElement('span')
 
-    let labelTel = document.createElement('label')
+    let labelTel = document.createElement('div')
     labelTel.classList.add('bold')
-    let telInclude = document.createElement('p')
+    let telInclude = document.createElement('span')
 
-    let labelTel2 = document.createElement('label')
+    let labelTel2 = document.createElement('div')
     labelTel2.classList.add('bold')
-    let tel2Include = document.createElement('p')
+    let tel2Include = document.createElement('span')
    
     // labels
     labelName.textContent = "Nome:"
