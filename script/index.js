@@ -66,7 +66,7 @@ button.addEventListener('click', (event) => {
         nameInclude.textContent = "Nome não informado"
     }
     if(email == ""){
-        emailInclude.textContent = "E-mail não informado, que pena"
+        emailInclude.textContent = "E-mail não informado"
     }
     if(tel == ""){
         telInclude.textContent = "Telefone não informado"
