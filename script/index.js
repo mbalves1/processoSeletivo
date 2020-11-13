@@ -55,11 +55,11 @@ button.addEventListener('click', (event) => {
    
     
 
-    if(name == "" || email == "" || tel == ""){
-        alert("Preencha correto")
-    }else {
-        alert("concluido")
-    }
+//     if(name == "" || email == "" || tel == ""){
+//         alert("Preencha correto")
+//     }else {
+//         alert("concluido")
+//     }
 
 })
       
