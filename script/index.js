@@ -49,17 +49,24 @@ button.addEventListener('click', (event) => {
     divName.appendChild(nameInclude)
     divName.appendChild(labelEmail)
     divName.appendChild(emailInclude)
+    divName.appendChild(labelTel)
     divName.appendChild(telInclude)
+    divName.appendChild(labelTel2)
     divName.appendChild(tel2Include)
    
    
-    
-
-//     if(name == "" || email == "" || tel == ""){
-//         alert("Preencha correto")
-//     }else {
-//         alert("concluido")
-//     }
-
+    if(name == ""){
+        nameInclude.textContent = "Nome não informado"
+    }
+    if(email == ""){
+        emailInclude.textContent = "E-mail não informado, que pena"
+    }
+    if(tel == ""){
+        telInclude.textContent = "Telefone não informado"
+    }
+    if(tel2 == ""){
+        tel2Include.textContent = "Telefone não informado"
+    }
+  
 })
       
