@@ -3,6 +3,8 @@ const button = document.querySelector(".button")
 
 button.addEventListener('click', (event) => {
     event.preventDefault();
+
+    // Valores de elementos
     let name = document.querySelector("#formGroupExampleInput").value;
     let email = document.querySelector("#formGroupExampleInput2").value;
     let tel = document.querySelector("#formGroupExampleInput3").value;
@@ -12,6 +14,7 @@ button.addEventListener('click', (event) => {
     document.querySelector("#formGroupExampleInput3").value = ""
     document.querySelector("#formGroupExampleInput4").value = ""
 
+    // Criação de elementos
     let response = document.querySelector('#containerCandidate')
     response.innerHTML = '';
 
@@ -33,7 +36,7 @@ button.addEventListener('click', (event) => {
     labelTel2.classList.add('bold')
     let tel2Include = document.createElement('p')
    
-
+    // labels
     labelName.textContent = "Nome:"
     labelEmail.textContent = "E-mail:"
     labelTel.textContent = "Telefone:"
@@ -54,7 +57,7 @@ button.addEventListener('click', (event) => {
     divName.appendChild(labelTel2)
     divName.appendChild(tel2Include)
    
-   
+   //*************************************Lembrar de fazweer*************************
     if(name == ""){
         nameInclude.textContent = "Nome não informado"
     }
