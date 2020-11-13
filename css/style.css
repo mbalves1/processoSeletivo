@@ -8,15 +8,16 @@
 
 body{
   height: 100vh;
+  background-color: #F3F3F3;
 }
 
 h1{
   text-align: left;
-font: normal normal bold 24px/36px Open Sans;
-letter-spacing: 0px;
-color: #2E2D2C;
-opacity: 1;
-font-size: 1.5rem;
+  font: normal normal bold 24px/36px Open Sans;
+  letter-spacing: 0px;
+  color: #2E2D2C;
+  opacity: 1;
+  font-size: 1.5rem;
 }
 
 .sizeH1{
@@ -35,6 +36,10 @@ label{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.bannerMobile {
+  display:none;
 }
 
 @media (min-width: 768px) {
@@ -122,6 +127,7 @@ height: 40px;
 .cardCadidate {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .containerCandidade{
@@ -208,3 +214,4 @@ height: 40px;
 .bold {
   font-weight: bold;
 }
+

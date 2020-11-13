@@ -5,7 +5,16 @@
         margin:auto;
         align-items: center;
     }
-    
+    .logo {
+        width:8rem;
+        color: #222222;
+        position: relative;
+        top: -9rem;
+        left: 8rem;
+      /* .bannerImage {
+          display:none;
+      } */
+    }
 }
 
 @media(max-width: 360px){
@@ -22,11 +31,19 @@
         opacity: 1;
         
       } */
+
+      .bannerDocket{
+        display: none;
+      }
+      .bannerMobile{
+        display: block;
+      }
+
       .containerForm {
         padding: 2.5rem;
         margin: 1rem;
         position: relative;
-        top:-3rem;
+        top:-2rem;
         width: 278px;
         height: 714px;
         background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -36,15 +53,15 @@
         
       }
       .logo {
-            width: 10rem;
-            color: #222222;
-            position: relative;
-            top: -8rem;
-            left: 8rem;
-      }   
+        width: 4rem;
+        color: #222222;
+        position: relative;
+        top: -8rem;
+        left: 8rem;
       /* .bannerImage {
           display:none;
       } */
+    }
 }
 
 @media(max-width: 375px){
@@ -52,7 +69,7 @@
         padding: 2.5rem;
         margin: 1rem;
         position: relative;
-        top:-3rem;
+        top:-2rem;
         width: 278px;
         height: 714px;
         background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -62,15 +79,15 @@
         
       }
       .logo {
-            width: 10rem;
-            color: #222222;
-            position: relative;
-            top: -8rem;
-            left: 8rem;
-      }   
+        width: 5rem;
+        color: #222222;
+        position: relative;
+        top: -8rem;
+        left: 8rem;
       /* .bannerImage {
           display:none;
       } */
+      }
 }
 
 @media(max-width: 479px){
@@ -78,7 +95,7 @@
       padding: 2.5rem;
       margin: 1rem;
       position: relative;
-      top:-3rem;
+      top:-2rem;
       width: 278px;
       height: 714px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -88,10 +105,10 @@
       
     }
     .logo {
-          width: 10rem;
-          color: #222222;
-          position: relative;
-          top: -8rem;
-          left: 8rem;
+        width: 7rem;
+        color: #222222;
+        position: relative;
+        top: -8rem;
+        left: 8rem;
     }   
 }
