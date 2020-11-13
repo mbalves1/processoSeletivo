@@ -24,6 +24,7 @@ button.addEventListener('click', (event) => {
     labelName.classList.add('bold')
     let nameInclude = document.createElement('span')
 
+
     let labelEmail = document.createElement('div')
     labelEmail.classList.add('bold')
     let emailInclude = document.createElement('span')
@@ -40,7 +41,7 @@ button.addEventListener('click', (event) => {
     labelName.textContent = "Nome:"
     labelEmail.textContent = "E-mail:"
     labelTel.textContent = "Telefone:"
-    labelTel2.textContent = "Telefone2:"
+    labelTel2.textContent = "Telefone 2:"
 
     nameInclude.textContent = name
     emailInclude.textContent = email
@@ -50,10 +51,13 @@ button.addEventListener('click', (event) => {
     response.appendChild(divName)
     divName.appendChild(labelName)
     divName.appendChild(nameInclude)
+    
     divName.appendChild(labelEmail)
     divName.appendChild(emailInclude)
+   
     divName.appendChild(labelTel)
     divName.appendChild(telInclude)
+    
     divName.appendChild(labelTel2)
     divName.appendChild(tel2Include)
    
@@ -71,5 +75,6 @@ button.addEventListener('click', (event) => {
         tel2Include.textContent = "Telefone não informado"
     }
   
+   
 })
       
