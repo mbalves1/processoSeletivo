@@ -15,6 +15,12 @@
           display:none;
       } */
     }
+    .bannerDocket{
+        display: none;
+      }
+      .bannerMobile{
+        display: block;
+      }
 }
 
 @media(max-width: 360px){
@@ -88,6 +94,12 @@
           display:none;
       } */
       }
+      .bannerDocket{
+        display: none;
+      }
+      .bannerMobile{
+        display: block;
+      }
 }
 
 @media(max-width: 479px){
@@ -111,4 +123,10 @@
         top: -8rem;
         left: 8rem;
     }   
+    .bannerDocket{
+        display: none;
+      }
+      .bannerMobile{
+        display: block;
+      }
 }
