@@ -46,3 +46,52 @@
           display:none;
       } */
 }
+
+@media(max-width: 375px){
+      .containerForm {
+        padding: 2.5rem;
+        margin: 1rem;
+        position: relative;
+        top:-3rem;
+        width: 278px;
+        height: 714px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 1px 2px #2E2D2C66;
+        border-radius: 4px;
+        opacity: 1;
+        
+      }
+      .logo {
+            width: 10rem;
+            color: #222222;
+            position: relative;
+            top: -8rem;
+            left: 8rem;
+      }   
+      /* .bannerImage {
+          display:none;
+      } */
+}
+
+@media(max-width: 479px){
+    .containerForm {
+      padding: 2.5rem;
+      margin: 1rem;
+      position: relative;
+      top:-3rem;
+      width: 278px;
+      height: 714px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0px 1px 2px #2E2D2C66;
+      border-radius: 4px;
+      opacity: 1;
+      
+    }
+    .logo {
+          width: 10rem;
+          color: #222222;
+          position: relative;
+          top: -8rem;
+          left: 8rem;
+    }   
+}
