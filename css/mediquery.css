@@ -21,6 +21,9 @@
       .bannerMobile{
         display: block;
       }
+      .endForm{
+          display: flex;
+      }
 }
 
 @media(max-width: 360px){
@@ -68,6 +71,9 @@
           display:none;
       } */
     }
+    .endForm{
+        display: flex;
+    }
 }
 
 @media(max-width: 375px){
@@ -100,6 +106,9 @@
       .bannerMobile{
         display: block;
       }
+      .endForm{
+        display: flex;
+    }
 }
 
 @media(max-width: 479px){
@@ -129,4 +138,7 @@
       .bannerMobile{
         display: block;
       }
+      .endForm{
+        display: flex;
+    }
 }
